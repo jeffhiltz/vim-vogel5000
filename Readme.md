@@ -1,3 +1,8 @@
+# Vogel5000 - Vim Colour Scheme
+
+This is a fork of lifepillar's vim-gruvbox8 scheme.  I'll (probably) update the readme later...
+
+
 # Gruvbox 8 - Vim Color Scheme
 
 ![](https://raw.github.com/lifepillar/Resources/master/gruvbox8/gruvbox8-dark-and-light.png)

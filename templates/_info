@@ -1,9 +1,8 @@
 # vim: ft=colortemplate
 
-Author:          morhetz <morhetz@gmail.com>
-Maintainer:      Lifepillar <lifepillar@lifepillar.me>
-Website:         https://github.com/lifepillar/vim-gruvbox8/
-Description:     Retro groove color scheme originally designed by morhetz
-Option Prefix:   gruvbox
+Author:          jeffhiltz <jeffhiltz@gmail.com>
+Website:         https://github.com/jeffhiltz/vim-vogel5000/
+Description:     A colour scheme inspired by Joe Bergantine's Birds of Paradise
+Option Prefix:   vogel5000
 Neovim:          yes
 
