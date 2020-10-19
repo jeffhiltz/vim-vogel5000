@@ -9,13 +9,13 @@ Color: fg2             #564844    237
 Color: fg3             #695C55     59
 Color: fg4             #7C7066    243 Black
 Color: grey            #908578    102 DarkGray
-Color: red             #9D0012     203 Red
+Color: red             #B62323     203 Red
 Color: green           #437D65     142 Green
-Color: yellow          #D88E1C     214 Yellow
+Color: yellow          #CE7E02     214 Yellow
 Color: blue            #3F76A4    109 Blue
 Color: purple          #8E648C    175 Magenta
 Color: aqua            #307B8E    107 Cyan
-Color: orange          #D05100     208 Magenta
+Color: orange          #C24D00     208 Magenta
 
 Include: _common
 
