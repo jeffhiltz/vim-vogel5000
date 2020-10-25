@@ -1,6 +1,6 @@
-# vim: ft=colortemplate
+; vim: ft=colortemplate
 
-# Neutral colors
+; Neutral colors
 Color: neutralred        #D5423A    160 DarkRed
 Color: neutralgreen      #629C84    100 DarkGreen
 Color: neutralyellow     #F19F2F    172 DarkYellow

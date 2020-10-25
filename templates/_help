@@ -64,7 +64,7 @@ terminal.
 <
 enddocumentation
 
-#Include: _help_extra_options
+;Include: _help_extra_options
 
 documentation
 ==============================================================================
@@ -72,5 +72,5 @@ documentation
 enddocumentation
 
 
-# vim: ft=colortemplate fdm=marker noet ts=8 tw=78
+; vim: ft=colortemplate fdm=marker noet ts=8 tw=78
 
