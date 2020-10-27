@@ -16,6 +16,18 @@ BufTabLineActive                 fg4    bg2
 BufTabLineHidden                 bg4    bg1
 BufTabLineFill                   bg0    bg0
 ; }}}
+; coc.nvim {{{
+CocErrorSign                     red    bg0
+CocWarningSign                   yellow bg0
+CocInfoSign                      blue   none
+CocHintSign                      bg2    none
+CocErrorFloat                    red    none
+CocWarningFloat                  yellow none
+CocInfoFloat                     blue   none
+CocHintFloat                     purple none
+CocSelectedText                  bg1    bg0
+CocCodeLens                      bg2    none
+; }}}
 ; CtrlP {{{
 CtrlPMatch                       yellow none
 CtrlPNoEntries                   red    none
@@ -25,6 +37,15 @@ CtrlPLinePre                     bg2    none
 CtrlPMode1                       blue   bg2     bold
 CtrlPMode2                       bg0    blue    bold
 CtrlPStats                       fg4    bg2     bold
+Variant: gui
+verbatim
+if !get(g:, '@optionprefix_bold', 1)
+  hi CtrlPMode1 gui=NONE cterm=NONE
+  hi CtrlPMode2 gui=NONE cterm=NONE
+  hi CtrlPStats gui=NONE cterm=NONE
+endif
+endverbatim
+Variant: gui 256
 ; }}}
 ; Dirvish {{{
 DirvishPathTail                  aqua   none
@@ -46,7 +67,7 @@ GitGutterChangeDelete            aqua   bg1
 ; }}}
 ; Indent Guides {{{
 #if get(g:, 'indent_guides_auto_colors', 0)
-  #if get(g: '@optionprefix_invert_indent_guides', 0)
+  #if get(g:, '@optionprefix_invert_indent_guides', 0)
     IndentGuidesOdd  bg0 bg2 reverse
     IndentGuidesEven bg0 bg1 reverse
   #else
