@@ -10,13 +10,13 @@ Include: _global
 Variant: gui 256
 
 Background: dark
-Color: bg0 #3C2D2B 236 Black
+Color: bg0             rgb( 60, 45, 43)     236 Black
 Include: _dark
 
 Background: light
-Color: bg0 #EEE9C7   187 White
-Color: bg1 #E4DDBE 251 Grey
-Color: bg2 #CDC7AC 180
+Color: bg0             rgb(238,233,199)     224 White
+Color: bg1             rgb(228,221,190)     187 Grey
+Color: bg2             rgb(205,199,172)     187
 Include: _light
 
 Background: any

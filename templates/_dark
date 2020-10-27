@@ -1,23 +1,23 @@
 ; vim: ft=colortemplate
 
 ; Color palette for dark background
-Color: bg1             #443633     237 DarkGray
-Color: bg2             #564844     239
-Color: bg3             #695C55      59
-Color: bg4             #7C7066    243
-Color: fg0             #FAF5D1    230
-Color: fg1             #E4DDBE    187 White
-Color: fg2             #CDC7AC    187
-Color: fg3             #B8B09B    144
-Color: fg4             #A39A89    137 Gray
-Color: grey            #908578    102 DarkGray
-Color: red             #F55E51     203 Red
-Color: green           #81BDA3     142 Green
-Color: yellow          #FFC151     214 Yellow
-Color: blue            #82B5E7    109 Blue
-Color: purple          #D0A2CC    175 Magenta
-Color: aqua            #74BBCF    107 Cyan
-Color: orange          #FF9033     208 Magenta
+Color: bg1             rgb( 68, 54, 51)     237 DarkGray
+Color: bg2             rgb( 86, 72, 68)     239
+Color: bg3             rgb(105, 92, 85)      59
+Color: bg4             rgb(124,112,102)     243
+Color: fg0             rgb(250,245,209)     230
+Color: fg1             rgb(228,221,190)     187 White
+Color: fg2             rgb(205,199,172)     187
+Color: fg3             rgb(184,176,155)     145
+Color: fg4             rgb(163,154,137)     246 Gray
+Color: grey            rgb(144,133,120)     102 DarkGray
+Color: red             rgb(245, 94, 81)     203 Red
+Color: green           rgb(129,189,163)     109 Green
+Color: yellow          rgb(255,193, 81)     215 Yellow
+Color: blue            rgb(130,181,231)     110 Blue
+Color: purple          rgb(208,162,204)     182 Magenta
+Color: aqua            rgb(116,187,207)     110 Cyan
+Color: orange          rgb(255,144, 51)     209 Magenta
 
 Include: _common
 
